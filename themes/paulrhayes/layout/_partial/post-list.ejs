@@ -1,0 +1,7 @@
+<section class="listing clearfix">
+  <ol>
+    <% posts.forEach(function(post){ %>
+        <%- partial('post-list-item', {post: post}) %>
+    <% }) %>
+  </ol>
+</section>
