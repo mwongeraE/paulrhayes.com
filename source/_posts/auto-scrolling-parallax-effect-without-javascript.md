@@ -1,3 +1,4 @@
+layout: post
 title: 'Create an auto-scrolling parallax effect without JavaScript'
 tags:
   - css3

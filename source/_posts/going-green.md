@@ -1,3 +1,4 @@
+layout: post
 title: 'Going green'
 tags:
   - green

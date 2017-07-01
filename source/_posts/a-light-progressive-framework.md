@@ -1,3 +1,4 @@
+layout: post
 title: 'A module instantiation pattern for Last.fm'
 tags:
   - framework

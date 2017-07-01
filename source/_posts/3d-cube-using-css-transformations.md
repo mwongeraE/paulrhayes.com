@@ -1,3 +1,4 @@
+layout: post
 title: 'Creating a 3D Cube using 2D CSS transformations'
 tags:
   - css3

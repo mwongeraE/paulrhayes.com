@@ -1,3 +1,4 @@
+layout: post
 title: 'Consistency across GOV.UK admin tools'
 tags:
   - gds

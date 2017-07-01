@@ -1,3 +1,4 @@
+layout: post
 title: 'Time for some CSS debate'
 tags:
   - css3

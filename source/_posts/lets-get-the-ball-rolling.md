@@ -1,3 +1,4 @@
+layout: post
 title: 'Let’s get the ball rolling'
 tags:
   - sandbox

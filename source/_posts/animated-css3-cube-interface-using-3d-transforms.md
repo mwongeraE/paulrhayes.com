@@ -1,3 +1,4 @@
+layout: post
 title: 'Creating an animated 3D CSS cube using 3D transforms'
 tags:
   - 3d

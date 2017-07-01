@@ -1,3 +1,4 @@
+layout: post
 title: 'Improving the CSS only modal'
 tags:
   - animation

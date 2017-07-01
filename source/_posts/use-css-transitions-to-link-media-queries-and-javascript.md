@@ -1,3 +1,4 @@
+layout: post
 title: 'Use CSS transitions to link Media Queries and JavaScript'
 tags:
   - css3

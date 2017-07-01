@@ -1,3 +1,4 @@
+layout: post
 title: 'Track outbound links using Google Analytics'
 tags:
   - analytics
