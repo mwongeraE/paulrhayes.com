@@ -417,16 +417,16 @@ a.site-title:active {
 }
 
 .listing-dots {
-  opacity: 0.5;
+  opacity: 0.4;
   position: absolute;
-  height: 5px;
-  bottom: 10px;
+  height: 10px;
+  bottom: 8px;
   left: 0;
   right: 0;
   background-position: -1px 100%;
   background-repeat: repeat-x;
-  background-size: 9px;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAIAAADgcHrrAAAAYklEQVQoz2P4+PoRGYiBCtpeXzm2e/XS9auXHj93nVhtN7fXGyOBkmXHiNF2rMQYDcSdfUpQ29ODSRjajhOh7VgGOdqAfluN4reAKduIDcmnV3Zv3bgaGJi7D52hfbzRXBsAte4RXN0X8kMAAAAASUVORK5CYII=);
+  background-size: 9px 9px;
+  background-image: radial-gradient(circle, black, black 1px, transparent 2px, transparent);
 }
 
 @media all and (max-width: 840px) {
