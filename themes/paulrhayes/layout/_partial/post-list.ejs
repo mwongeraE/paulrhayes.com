@@ -1,3 +1,8 @@
+<%
+  if (typeof type == "string") {
+    posts = posts.filter(function(post) { return post.layout == type } );
+  }
+%>
 <section class="listing clearfix">
   <ol>
     <% posts.forEach(function(post){ %>
