@@ -490,7 +490,7 @@ a.site-title:active {
 }
 
 /* ==========================================================================
- Articles
+ Articles (posts)
  ========================================================================== */
 
 .article {
@@ -653,6 +653,54 @@ iframe.vimeo {
 
 .article .latest-posts {
   margin-bottom: 2.6666666667em; /* 64/24 */
+}
+
+/* ==========================================================================
+ Notes
+ ========================================================================== */
+
+.layout-notes-index,
+.layout-note {
+  background: #fff;
+}
+
+.layout-notes-index .listing-title,
+.layout-notes-index .listing-date {
+  background: #fff
+}
+
+.article-note .main-content-title {
+  text-align: left;
+  padding: 0;
+}
+
+.article-note .main-content-subtitle {
+  display: block;
+  font-size: 0.6em;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+.article-note .main-content-subtitle a {
+  text-decoration: underline;
+}
+
+.article-note .main-content-title {
+  margin-bottom: 20px;
+}
+
+.article-note .article-meta {
+  margin-bottom: 40px;
+}
+
+.article-note .article-meta {
+  text-align: left;
+}
+
+.article-note .article-content {
+  border-left: 5px solid #000;
+  padding: 5px 30px 0;
+  margin-bottom: 80px;
 }
 
 /* ==========================================================================

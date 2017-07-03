@@ -6,22 +6,22 @@
     <%- partial('_partial/experiment-header', {experiment: page}) %>
   <% } %>
 </head>
-<body>
-  <%
-   wrapperClass = "wrapper hfeed";
-   if (is_home()) {
-     wrapperClass += " home";
-   }
+<%
+  wrapperClass = "wrapper hfeed";
+  if (is_home()) {
+   wrapperClass += " home";
+  }
 
-   if (typeof page.layout !== 'undefined') {
-     wrapperClass += " layout-" + page.layout;
-   }
+  if (typeof page.layout !== 'undefined') {
+   wrapperClass += " layout-" + page.layout;
+  }
 
-   if (is_category()) {
-     wrapperClass += " category-" + page.category;
-   }
-  %>
-  <div class="<%= wrapperClass %>">
+  if (is_category()) {
+   wrapperClass += " category-" + page.category;
+  }
+%>
+<body class="<%= wrapperClass %>">
+  <div>
     <%- partial('_partial/header') %>
     <%- body %>
     <% if (page.footer !== false) { %>
