@@ -1,3 +1,4 @@
+layout: post
 title: 'Creating an accordion using CSS transitions'
 tags:
   - css3

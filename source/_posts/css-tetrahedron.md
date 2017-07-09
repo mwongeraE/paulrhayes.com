@@ -1,3 +1,4 @@
+layout: post
 title: 'Creating a tetrahedron with 3D CSS'
 tags:
   - 3d

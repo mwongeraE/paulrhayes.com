@@ -1,3 +1,4 @@
+layout: post
 title: 'The Last.fm Webteam'
 tags:
   - agile

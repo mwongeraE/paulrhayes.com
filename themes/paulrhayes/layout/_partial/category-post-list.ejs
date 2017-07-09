@@ -1,0 +1,1 @@
+<%- partial('post-list', { posts: site.categories.findOne({name: category}).posts.sort('date', -1) }) %>

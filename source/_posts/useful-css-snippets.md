@@ -1,3 +1,4 @@
+layout: post
 title: 'Useful CSS snippets'
 tags:
   - css

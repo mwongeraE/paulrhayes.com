@@ -44,6 +44,9 @@ RewriteRule ^2013-10/first-dance/$ https://paulhayes.photography/2013-10/first-d
 RewriteRule ^2013-06/brighton-pavilion/$ https://paulhayes.photography/2013-06/brighton-pavilion/ [R=301,NC,L]
 RewriteRule ^2011-11/iguacu-falls/$ https://paulhayes.photography/2011-11/iguacu-falls/ [R=301,NC,L]
 
+# Redirects dated posts to slugs
+RewriteRule ^20\d{2}-\d{2}/(.*)$ /$1 [R=301,NC,L]
+
 # Avoid www. in URL
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]

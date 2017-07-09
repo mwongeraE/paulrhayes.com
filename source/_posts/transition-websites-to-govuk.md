@@ -1,3 +1,4 @@
+layout: post
 title: 'Transitioning 800 websites to GOV.UK'
 tags:
   - gds

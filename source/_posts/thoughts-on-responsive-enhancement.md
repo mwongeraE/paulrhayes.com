@@ -1,3 +1,4 @@
+layout: post
 title: 'Thoughts on Responsive Enhancement'
 tags:
   - css3

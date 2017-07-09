@@ -1,3 +1,4 @@
+layout: post
 title: 'Migrating a GOV.UK format to a new frontend'
 tags:
   - gds

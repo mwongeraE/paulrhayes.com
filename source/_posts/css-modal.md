@@ -1,3 +1,4 @@
+layout: post
 title: 'Creating a modern modal with CSS'
 tags:
   - ':target'

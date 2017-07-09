@@ -10,7 +10,7 @@
     <% site.posts.sort('date', -1).each(function(latestPost, i){ %>
       <% if (latestPost.layout === 'post') { %>
         <% if (count >= limit) { return; } else { count++; } %>
-        <%- partial('archive-post', {post: latestPost, hasType: true}) %>
+        <%- partial('post-list-item', {post: latestPost, hasType: true}) %>
       <% } %>
     <% }) %>
   </ol>

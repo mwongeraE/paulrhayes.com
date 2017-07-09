@@ -1,3 +1,4 @@
+layout: post
 title: 'Creating the first design'
 tags:
   - theme

@@ -1,3 +1,4 @@
+layout: post
 title: 'Face detection using webcams and canvas'
 tags:
   - canvas
