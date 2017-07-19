@@ -1,5 +1,6 @@
 layout: note
-title: 'Philosophize This!'
+title: 'The Buddha'
+thing: 'Philosophize This! #9'
 date: 2017-07-02
 ---
 
