@@ -1,18 +1,25 @@
 <% post = page %>
 <main class="article article-note h-entry">
-  <div class="article-meta" role="contentinfo">
-    <%- partial('_partial/post/nav') %>
-  </div>
   <header class="article-header">
     <h1 class="main-content-title entry-title p-name">
-      <span class="main-content-subtitle"><a href="/notes/">Notes</a><% if (page.thing) { %> on <%= page.thing %><% } %></span>
       <%= page.title %>
+      <span class="main-content-subtitle">
+        <a href="/notes/">Notes</a>
+        <% if (page.thing) { %>
+          on <% if (page.thing_url) { %>
+              <a href="<%= page.thing_url %>"><%= page.thing %></a>
+            <% } else { %>
+              <%= page.thing %>
+            <% } %>
+        <% } %>
+      </span>
     </h1>
   </header>
+  <div class="article-meta" role="contentinfo">
+    <%- partial('_partial/post/published') %>
+    <%- partial('_partial/post/nav') %>
+  </div>
   <div class="article-content entry-content e-content">
     <%- page.content %>
-    <p>
-      <%- partial('_partial/note/published') %>
-    </p>
   </div>
 </main>

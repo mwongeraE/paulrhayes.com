@@ -4,6 +4,8 @@
     <%= date(post.date, 'MMM YYYY') %>
   </time>
   <span class="listing-title">
-    <a href="<%- config.root %><%- post.path %>" class="listing-link"><%= post.title %></a>
+    <a href="<%- config.root %><%- post.path %>" class="listing-link">
+      <% if (post.thing) { %><%= post.thing %> – <% } %><%= post.title %>
+    </a>
   </span>
 </li>

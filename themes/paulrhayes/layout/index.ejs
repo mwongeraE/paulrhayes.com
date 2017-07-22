@@ -12,3 +12,8 @@
   Experiments
 </h2>
 <%- partial('_partial/category-post-list', {category: 'experiments'}) %>
+
+<h2 class="main-content-title">
+  Notes on things
+</h2>
+<%- partial('_partial/post-list', { posts: site.posts.sort('date', -1), type: 'note' }) %>

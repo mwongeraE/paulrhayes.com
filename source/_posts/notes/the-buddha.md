@@ -1,15 +1,13 @@
 layout: note
 title: 'The Buddha'
 thing: 'Philosophize This! #9'
+thing_url: http://philosophizethis.org/the-buddha/
 date: 2017-07-02
 ---
 
-“Philosophize This!” is a philosophy podcast:
-http://philosophizethis.org/
+[Philosophize This!](http://philosophizethis.org/) is a philosophy podcast.
 
 ## #9 The Buddha
-
-http://philosophizethis.org/the-buddha/
 
 * Life of Buddha
 * How Buddha came to four noble truths
