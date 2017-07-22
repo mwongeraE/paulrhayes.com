@@ -80,6 +80,7 @@ Going green isn’t just about living sustainably, it’s also about protecting 
 * [The RSPB](https://www.rspb.org.uk/)
 * [National Trust](https://www.nationaltrust.org.uk/our-cause)
 * [Wild Wetlands Trust (WWT)](http://www.wwt.org.uk/)
+* [Sussex Wildlife Trust](https://sussexwildlifetrust.org.uk/)
 * [Save the frogs](http://www.savethefrogs.com/)
 
 
