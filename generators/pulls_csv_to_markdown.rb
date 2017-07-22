@@ -1,7 +1,7 @@
 require 'csv'
 require 'date'
 
-csv_file = "source/pulls/pulls.csv"
+csv_file = "source/csvs/pulls.csv"
 markdown_file = "source/pulls/index.md"
 pulls = CSV.read(csv_file)
 
