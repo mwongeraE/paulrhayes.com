@@ -21,7 +21,7 @@ GOV.UK publishing tools are typically in two halves: a backend app where content
 
 ## government-frontend
 
-I've been in the "Core formats" team, we’re responsible for migrating all of Whitehall’s formats to the publishing platform. When migrated, content written in Whitehall is sent to the publishing platform, from there a separate frontend app consumes a "content item" (a JSON representation of the content), and renders it. That application is [government-frontend](github.com/alphagov/government-frontend/).
+I've been in the "Core formats" team, we’re responsible for migrating all of Whitehall’s formats to the publishing platform. When migrated, content written in Whitehall is sent to the publishing platform, from there a separate frontend app consumes a "content item" (a JSON representation of the content), and renders it. That application is [government-frontend](https://github.com/alphagov/government-frontend/).
 
 Format by format we've been moving the frontend out of Whitehall and into government-frontend.
 
