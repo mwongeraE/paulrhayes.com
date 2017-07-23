@@ -11,7 +11,7 @@ title: 'Pull requests'
 ---
 
 A list of my pull requests exported from [Github](https://github.com/fofr).
-Last exported on #{Date.today.strftime('%e %b %Y')}.
+#{pulls.size - 1} pull requests. Last exported on #{Date.today.strftime('%e %b %Y')}.
 
 | Date | Pull request |
 |--|--|

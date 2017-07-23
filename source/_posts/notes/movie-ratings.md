@@ -4,7 +4,7 @@ title: 'Movie ratings'
 ---
 
 List exported from my [IMDB movie rating history](http://www.imdb.com/user/ur1735811/ratings).
-Last exported on 23 Jul 2017.
+1462 movies rated. Last exported on 23 Jul 2017.
 
 | Date | Rating | Movie |
 |--|--|

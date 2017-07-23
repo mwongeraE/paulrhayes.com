@@ -4,7 +4,7 @@ title: 'Pull requests'
 ---
 
 A list of my pull requests exported from [Github](https://github.com/fofr).
-Last exported on 23 Jul 2017.
+798 pull requests. Last exported on 23 Jul 2017.
 
 | Date | Pull request |
 |--|--|

@@ -11,7 +11,7 @@ title: 'Movie ratings'
 ---
 
 List exported from my [IMDB movie rating history](http://www.imdb.com/user/ur1735811/ratings).
-Last exported on #{Date.today.strftime('%e %b %Y')}.
+#{csv_contents.size - 1} movies rated. Last exported on #{Date.today.strftime('%e %b %Y')}.
 
 | Date | Rating | Movie |
 |--|--|
