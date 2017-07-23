@@ -1,6 +1,10 @@
+layout: note
+date: 2013-09-27
 title: 'Pull requests'
-layout: 'page'
 ---
+
+A list of my pull requests exported from [Github](https://github.com/fofr).
+Last exported on 23 Jul 2017.
 
 | Date | Pull request |
 |--|--|

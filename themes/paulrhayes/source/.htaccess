@@ -18,6 +18,7 @@ RewriteRule ^page/ /archive/ [R=301,NC,L]
 RewriteRule ^feed/ /atom.xml [R=301,NC,L]
 RewriteRule ^email/?$ /contact/ [R=301,NC,L]
 RewriteRule ^category/(.*)$ /$1 [R=301,NC,L]
+RewriteRule ^pulls/ /notes/pull-requests/ [R=301,NC,L]
 
 # Redirects to paulhayes.photography
 RewriteRule ^photography/?$ https://paulhayes.photography [R=301,NC,L]

@@ -2,12 +2,16 @@ require 'csv'
 require 'date'
 
 csv_file = "source/csvs/pulls.csv"
-markdown_file = "source/pulls/index.md"
+markdown_file = "source/_posts/notes/pull-requests.md"
 pulls = CSV.read(csv_file)
 
-content = "title: 'Pull requests'
-layout: 'page'
+content = "layout: note
+date: 2013-09-27
+title: 'Pull requests'
 ---
+
+A list of my pull requests exported from [Github](https://github.com/fofr).
+Last exported on #{Date.today.strftime('%e %b %Y')}.
 
 | Date | Pull request |
 |--|--|

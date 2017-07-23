@@ -10,7 +10,8 @@ date: 2002-05-11
 title: 'Movie ratings'
 ---
 
-List exported from my [IMDB movie rating history](http://www.imdb.com/user/ur1735811/ratings)
+List exported from my [IMDB movie rating history](http://www.imdb.com/user/ur1735811/ratings).
+Last exported on #{Date.today.strftime('%e %b %Y')}.
 
 | Date | Rating | Movie |
 |--|--|
