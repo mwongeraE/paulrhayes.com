@@ -21,6 +21,7 @@ When wrapping gifts:
 * don't buy new wrapping paper, especially paper wrapped in single use plastic
 * reuse wrapping paper you already have (cut out bits of old tape)
 * reuse that brown packing paper Amazon stuffs into its packages
+* use brown paper
 * don't buy gift bags, save and reuse all gift bags you’re given
 * use string rather than plastic tape, then reuse the string, use [paper tape](https://www.anythingbutplastic.co.uk/product-page/paper-tape) as an alternative
 * don't buy gift tags, especially if wrapped in plastic, make tags from old Christmas cards
@@ -34,10 +35,12 @@ Give:
 * things you already have that someone else might want more
 * digital rather than physical media
 * things that aren't made from plastic
+* to charity
 
 Ask for:
 * gifts that don't contain plastics or synthetics
 * responsible gifts
+* donations to charities you support
 
 ## Christmas cards
 
@@ -46,6 +49,15 @@ Every part of a Christmas card can be reused:
 * reuse envelopes as scrap paper, recycle after reuse
 * [donate used stamps to the RSPB](https://www.rspb.org.uk/join-and-donate/other-ways-to-help/save-your-stamps)
 * split old cards in two, make the half with the design a gift tag for next year, use the back for scrap paper and once used recycle
+
+Buy cards that:
+
+* are made from recycled material
+* don't contain glitter or plastics
+* don't come in a plastic box
+* give profits to charity
+
+Plan ahead and buy your Christmas cards cheap in the post-Christmas sales. I don't know what large shops do with any Christmas stuff they can't shift, but it can't be good.
 
 ## What you eat at Christmas
 
@@ -57,4 +69,4 @@ Every part of a Christmas card can be reused:
 * Don't tip fat down the drains, keep for future roast vegetables and gravy
 * Use turkey bones and vegetable peelings (if you peeled) for stock
 * Compost food waste
-* Buy late and purchase discounted food that’s destined for landfill (this year our local co-op reduced £14 lobsters down to £3.50, so we bought 4)
+* Buy late and purchase discounted food that’s destined for landfill (this year our local co-op reduced £14 lobsters down to £3.50, so we bought 4 and ate them on boxing day)
