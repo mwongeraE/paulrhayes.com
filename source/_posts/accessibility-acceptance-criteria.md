@@ -5,108 +5,89 @@ tags:
   - accessibility
 categories:
   - projects
-date: 2017-07-29
+date: 2018-01-24
 ---
 
-Accessibility acceptance criteria are a list of criteria that a user interface must meet to be considered accessible. They define what makes the building blocks of a user interface accessible and give teams criteria to test against. They a place to record accessibility decisions.
+__This post was originally published on the [Inside GOV.UK blog](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/).__
 
-[As Alistair Duggan said](https://accessibility.blog.gov.uk/2016/05/16/what-we-mean-when-we-talk-about-accessibility-2/):
-
-> it is lack of awareness that most commonly results in things being inaccessible
-
-Accessibility acceptance criteria raise awareness about what accessible means in a specific context. They’re more specific than general accessibility guidance, such as the Web Content Accessibility Guidelines (WCAG).
-
-At Government Digital Service what we build must be accessible. It’s one of our design principles, “[This is for everyone](https://www.gov.uk/design-principles#sixth)”:
+At Government Digital Service, [everything we build must be accessible](https://gds.blog.gov.uk/2017/10/23/were-making-accessibility-clearer-and-easier/). It’s one of our design principles, '[This is for everyone](https://www.gov.uk/guidance/government-design-principles#this-is-for-everyone)':
 
 > Accessible design is good design. Everything we build should be as inclusive, legible and readable as possible. [...] The people who most need our services are often the people who find them hardest to use. Let’s think about those people from the start.
 
-By defining accessibility acceptance criteria upfront we are forced to think about accessibility from the start. It helps us to [consider the range of users](https://accessibility.blog.gov.uk/2016/05/16/consider-the-range-of-people-that-will-use-your-product-or-service/). The criteria become a starting point for building accessible things.
+Accessibility acceptance criteria are one of the tools we use to make sure our user interfaces are accessible.
 
-## Example criteria
+## What are accessibility acceptance criteria?
 
-### Accessible autocomplete
+They are a list of conditions that a user interface must meet to be considered accessible. They help us raise awareness of access needs and maintain accessibility as we iterate. GDS has used acceptance criteria for years (for example, this [2015 Verify blogpost about acceptance criteria](https://gdstechnology.blog.gov.uk/2015/03/04/creating-better-acceptance-criteria-for-user-stories/) and in the [2014 GOV.UK style guidance](http://webarchive.nationalarchives.gov.uk/20141214162055/https://www.gov.uk/guidance/content-design/user-needs#acceptance-criteria)), so formalising and expanding the accessibility-related acceptance criteria seemed logical. Be aware that accessibility acceptance criteria alone won’t make your service accessible – read more [guidance on building an accessible service](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction).
 
-At GDS we first used accessibility acceptance criteria when building the [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete). Theodor Vararu, Léonie Watson and Ed Horsford defined the following [autocomplete accessibility criteria](https://github.com/alphagov/accessible-autocomplete/blob/master/accessibility-criteria.md) — the necessary behaviours that an autocomplete needs to meet to be usable by assistive technologies:
+### Raise awareness
 
-> The field with autocomplete must:
-> 1. Be focusable with a keyboard
-> 2. Indicate when it has keyboard focus
-> 3. Inform the user that it is an editable field
-> 4. Inform the user if there is a pre-filled value
-> 5. Inform the user that autocomplete is available
-> 6. Explain how to use autocomplete
-> 7. Inform the user that content has been expanded
-> 8. Inform the user when there are matches, or if there are no matches
-> 9. (Optional) Inform the user how many matches are currently available
-> 10. Inform the user as the number of matches changes
-> 11. Enable the user to navigate the available matches using touch or keyboard
-> 12. Inform the user when a match is selected
-> 13. (Optional) Inform the user which number the currently selected match is (1 of 3 for example)
-> 14. Inform the user if a match is pre-selected
-> 15. Enable the user to confirm the selected match
-> 16. Inform the user when a match is confirmed
-> 17. Return focus to the editable field when a selected match is confirmed
+Accessibility acceptance criteria raise awareness about what accessible means in a specific context. They’re more specific than general accessibility guidance, such as the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/intro/wcag). By drafting the criteria upfront, we are forced to think about accessibility and the [range of users](https://accessibility.blog.gov.uk/2016/05/16/consider-the-range-of-people-that-will-use-your-product-or-service/) from the start.
 
-### GOV.UK publishing components
+### Maintain accessibility
 
-On the GOV.UK Publishing Frontend team we are breaking down our pages into reusable component blocks which are documented in a component guide. A component is a package comprised of template, style, behaviour and documentation that follows our [component principles](https://github.com/alphagov/govuk_publishing_components/blob/master/docs/component_principles.md).
+Accessibility criteria also help us maintain accessibility as we iterate. Without them, it’s easy to introduce accessibility regressions when iterating on interfaces. Even when we know an interface has been built well, and that effort went into making it accessible – how do we make changes without breaking accessibility? What stops our new definition of accessibility from being incomplete or different to the original definition? Outlining accessibility issues in criteria helps us record the decisions that were made in earlier iterations and allows us to define the rules that keep something accessible.
 
-We are defining accessibility acceptance criteria for each component to help us assess the accessibility of the existing code and to ensure we can iterate on these component designs without breaking accessibility.
+## Examples of accessibility acceptance criteria
 
-Our components are less complex than an autocomplete, but our criteria still highlight important accessibility needs.
+### Accessible autocomplete on GOV.UK
 
-#### Navigating translations
+At GDS, we first used accessibility acceptance criteria when building the [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete) in January 2017\. The team working on this (Theodor Vararu, Léonie Watson and Ed Horsford) defined the [autocomplete accessibility criteria](https://github.com/alphagov/accessible-autocomplete/blob/master/accessibility-criteria.md) – the necessary behaviours that an autocomplete needs to meet to be usable by assistive technologies. The field with autocomplete must:
 
-For a component that lists links to translations of the current page we identify the following criteria:
+*   be focusable with a keyboard
+*   indicate when it has keyboard focus
+*   inform the user that it is an editable field
+*   inform the user if there is a pre-filled value
+*   inform the user that autocomplete is available
+*   explain how to use autocomplete
+*   inform the user that content has been expanded
+*   inform the user when there are matches, or if there are no matches
+*   inform the user how many matches are currently available (optional)
+*   inform the user as the number of matches changes
+*   enable the user to navigate the available matches using touch or keyboard
+*   inform the user when a match is selected
+*   inform the user which number the currently selected match is - for example, 1 of 3 (optional)
+*   inform the user if a match is pre-selected
+*   enable the user to confirm the selected match
+*   inform the user when a match is confirmed
+*   return focus to the editable field when a selected match is confirmed
 
-> The translation navigation links must identify the language of the link for correct screen reader pronunciation
+### Translation component on GOV.UK
 
-While this is true for all words that are in a language different to the main content’s language, it is especially important to consider in the context of this component. Here there is a high risk of introducing an accessibility barrier.
+When we link to a [translation of a GOV.UK page](https://www.gov.uk/government/case-studies/the-role-of-women-in-afghanistan.ur), we identify the following criteria:
 
-#### Banners
+> The translation navigation links must identify the language of the link for correct screen reader pronunciation.
 
-On a banner component that places white text on a blue background we use the criteria to highlight the importance of contrast ratios:
+While this is true for all words that are in a different language, it is especially important to consider in the context of this component. Here there is a high risk of introducing an accessibility barrier.
 
-> The banner must have a text contrast ratio of at least 4.5:1 against the background colour to meet [WCAG AA](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast)
+### Banner component on GOV.UK
 
-While all text must have a sufficient contrast ratio, given this component’s use of colour it has an increased risk of introducing a barrier.
+On [banners that place white text on a blue background](https://www.gov.uk/government/publications/the-health-and-care-system-explained/the-health-and-care-system-explained), the criteria we use highlights the importance of contrast ratios:
 
-Note also that WCAG AA defines different ratios for large and small text, we’ve found that the definition of large and small can be misinterpreted. Using one contrast ratio for all text eliminates any chance of mistake.
+> The banner must have a text contrast ratio of at least 4.5:1 against the background colour to meet the [WCAG AA](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast) guidelines.
 
-## Criteria maintain accessibility
-
-When building user interfaces we do our best to ensure they are accessible. But without a definition of what made it accessible it’s hard to iterate on and too easy to introduce accessibility regressions. Even when we know it’s been built well, and that effort went into making it accessible – how do we make changes without breaking accessibility? What stops our new definition of accessibility from being incomplete or different to the original definition?
-
-Making something accessible can be nuanced and complex and [not all accessibility testing can be automated](https://blog.vararu.org/accessibility-testing-tools-are-lying-to-you/). There are always manual steps needed to test features in the way they impact users.
-
-Outlining accessibility issues in criteria records the decisions that were made and define the rules that keep something accessible.
-
-In code we can use these criteria to write unit tests that prevent regressions. In our translation component we can test that links have a `lang` attribute, and in our banner component we can [test the contrast ratio](https://github.com/alphagov/govuk_frontend_toolkit/pull/374).
+While all text must have a sufficient contrast ratio, this component’s use of colour has an increased risk of introducing a barrier.
 
 ## Writing accessibility acceptance criteria
 
+These are the guidelines we use for writing accessibility acceptance criteria.
+
 ### Start with accessibility needs
 
-Identify where there is a high risk of introducing an accessibility barrier and include criteria that prevent them.
-
-If similar things already exist, review them to find barriers. Test them with users who have access needs. The original criteria for the accessible autocomplete were derived from tests made by Theodor Vararu on existing autocomplete libraries.
-
-For many patterns the hard work of defining what accessible means has been documented in guidelines like WCAG. Do the hard work to extract rules specific to what you’re building and link back to the guidelines to give context. Consider which rules are most easily broken and give them prominence.
+Identify where there is a high risk of introducing an accessibility barrier and include criteria that prevent it. If similar things already exist, review them and test them with users who have access needs. For example, the original criteria for the accessible autocomplete were derived from tests made by Theodor Vararu (a frontend developer in the autocomplete component team) on existing autocomplete libraries. Often, the hard work of defining what accessible means has been documented in guidelines like [WCAG](https://www.w3.org/TR/wai-aria-practices-1.1/). Extract rules that are specific to what you’re building and link back to the guidelines to give context. Consider which rules are most easily broken and give them prominence.
 
 ### Don't be too generic
 
-Criteria are useful if they are specific and testable.
+Criteria are useful if they are specific and testable. When we began writing accessibility acceptance criteria for components, we had difficulty knowing what to include. For example, with components that contain links, should the criteria list everything that makes a link accessible? How much of this becomes a reproduction of existing guidelines? For the translation component, it was helpful to create a shared definition of an accessible link that we could link to. This avoided diluting the criteria while giving us a place to record more generic decisions.
 
-When we began writing accessibility acceptance criteria for components we had difficulty knowing what to include. Consider a component that contains links – do the criteria need to list everything that make a link accessible? How much of this becomes a reproduction of existing guidelines?
+### Don't define the solution
 
-In this case it was helpful to create a shared definition of an accessible link that could be linked to. This avoided diluting the criteria while giving us a place to record more generic decisions.
+Like [acceptance criteria in user stories](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories#acceptance-criteria), accessibility acceptance criteria describe an outcome rather than the solution. The criteria should give room for interpretation and allow designers and developers to make improvements over time. Ideally, if technology or designs change, the criteria will still apply. For example, in the banner component criteria, we state the required contrast ratio, but we do not limit the design with implementation specifics such as font size or colour.
 
 ### Iterate criteria
 
-As something is built and tested, continue to refine your criteria as you find missing needs. When accessibility bugs are found – a browser bug, a screen reader quirk, new technology misbehaving, add further criteria and treat them like a failing unit test.
+As something is built and tested, continue to refine your criteria as you find missing needs. When accessibility bugs are found – a browser bug, a screen reader quirk, new technology misbehaving – add further criteria and treat them like a failing unit test.
 
-### Separate guidance and accessibility acceptance criteria
+## What next?
 
-Guidance is for users, accessibility acceptance criteria are for maintainers.
-
-Not everything is under your control. For instance, some of our components may become inaccessible if they’re passed certain parameters. Consider a contrived example of the translation component being passed data that says a link is in English but on inspection actually reads in Arabic.
+Writing accessibility acceptance criteria for user interfaces on GOV.UK is a new practice which we will continue to refine and build process around. We’ll include accessibility acceptance criteria in our component guides and developer documentation (see the [contents list component](https://government-frontend.herokuapp.com/component-guide/contents-list) for an example). We're also keen to hear from others who’ve used accessibility acceptance criteria (or something similar), and what they’ve found – [please leave a comment](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/#respond).
