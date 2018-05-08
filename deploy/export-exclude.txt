@@ -1,0 +1,5 @@
+readme.md
+.DS_Store
+tests
+.git
+LICENSE.txt

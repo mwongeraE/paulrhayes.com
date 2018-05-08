@@ -4,5 +4,7 @@ db.json
 debug.log
 node_modules/
 public/
-.deploy/
-deploy/
+deploy/exclude.txt
+
+# Hexo edited config file
+*.yml-e
