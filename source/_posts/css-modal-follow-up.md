@@ -11,7 +11,7 @@ categories:
 date: 2011-04-26 21:43:51
 ---
 
-In [my original post](/2011-03/css-modal/) I explained how to create a CSS only modal pop-up using :target, pseudo-elements and pointer events. This had a number of caveats, any browser that didn’t support pointer events would see a non-clickable page and the forward/back controls would navigate through dialogues, which is usually undesirable. Of course it was only an experiment.
+In [my original post](/css-modal/) I explained how to create a CSS only modal pop-up using :target, pseudo-elements and pointer events. This had a number of caveats, any browser that didn’t support pointer events would see a non-clickable page and the forward/back controls would navigate through dialogues, which is usually undesirable. Of course it was only an experiment.
 
 <time datetime="2013-02-10">10 Feb 2013</time>: The site’s design has been updated and the comment form reverted to a simpler, non-modal one. The original can still be seen in the video below.
 
