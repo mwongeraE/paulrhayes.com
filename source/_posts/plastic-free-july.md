@@ -8,7 +8,7 @@ categories:
 date: 2019-08-01
 ---
 
-In July my family tried its best to go plastic free. The rules were simple: don’t buy anything plastic. If we already had things in plastic we could use them. We began with enthusiasm – a challenge to change our ways, to go from reduced plastic to zero. By the end, as supplies dwindled, the task felt tedious, expensive and difficult.
+In July my family tried its best to go plastic free, as part of [Plastic Free July](https://www.plasticfreejuly.org/). The rules were simple: don’t buy anything plastic. If we already had things in plastic we could use them. We began with enthusiasm – a challenge to change our ways, to go from reduced plastic to zero. By the end, as supplies dwindled, the task felt tedious, expensive and difficult.
 
 ## Food mattered most
 
