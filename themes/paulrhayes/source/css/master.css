@@ -186,7 +186,7 @@ body {
   font-size: 1.5em; /* 24px */
   line-height: 1.3333333em;  /* 24px/32px default */
   color: #555;
-  background: #f1ebe2;
+  background: #fff;
   font-family: "adobe-caslon-pro-1", "adobe-caslon-pro-2", Georgia, Times, "Times New Roman", serif;
   text-rendering: optimizeLegibility;
 }
@@ -404,14 +404,14 @@ a.site-title:active {
 
 .listing-date {
   color: #555;
-  background: #f1ebe2;
+  background: #fff;
   position: relative;
   z-index: 1;
   padding-left: 10px;
 }
 
 .listing-title {
-  background: #f1ebe2;
+  background: #fff;
   position: relative;
   z-index: 1;
 }
@@ -549,7 +549,7 @@ a.site-title:active {
 
 .article table td,
 .article table th {
-  border: 1px solid #aaa;
+  border: 2px solid #aaa;
   padding: 0.9em 1em 0.7em;
 }
 
@@ -560,11 +560,11 @@ a.site-title:active {
 
 .article-footer {
   padding: 1.333333333em 1.333333333em 1em;
-  margin: 0;
-  border: 1px solid #ccc;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 2px solid #ccc;
   line-height: 1.333333333em;
-  border-radius: 3px;
-  background: rgba(255,255,255,0.5);
+  background: #f5f5f5;
 }
 
 .article-discussion {
@@ -659,16 +659,6 @@ iframe.vimeo {
  Notes
  ========================================================================== */
 
-.layout-notes-index,
-.layout-note {
-  background: #fff;
-}
-
-.layout-notes-index .listing-title,
-.layout-notes-index .listing-date {
-  background: #fff
-}
-
 .article-note .main-content-subtitle {
   display: block;
   font-size: 0.6em;
@@ -709,7 +699,8 @@ pre {
   margin-bottom: 2.28571428571429em; /* 32/14px */
   padding: 1.14285714285714em 20px; /* 16px/14px */
   position: relative;
-  background: #fff;
+  background: #f5f5f5;
+  border: 2px solid #ccc;
   font-size: 18px;
   line-height: 1.14285714285714em; /* 16px/14px */
   -webkit-font-smoothing: antialiased;
