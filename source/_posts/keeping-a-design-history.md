@@ -59,7 +59,7 @@ We started by trying to upload screenshots to Confluence, but this was cumbersom
 
 We used the GOV.UK prototype kit to make the first design history and hosted it on Heroku. The kit made it easy to create pages, and we began by making posts for each feature, showing a list of screenshots alongside descriptions of what had changed and why.
 
-With a page for each design we now had a public URL to share with the team, to put into Trello cards or pull requests. [An example of an early post](https://bat-design-history.netlify.app/find-teacher-training/private-beta/user-research-apr-12).
+With a page for each design we now had a public URL to share with the team, to put into Trello cards or pull requests. [An example of an early post](https://bat-design-history.netlify.app/find-teacher-training/private-beta/user-research-apr-12/).
 
 When it was clear these posts were useful we made creating them easier. We automated the process with scripts for taking screenshots, saving images to the right place, and generating a page with all the markup needed. Now we could focus on writing about the design rather than the task of recording it.
 
@@ -71,7 +71,7 @@ Over time we could begin to show the old and new designs, and callout specific c
 
 ## Recording milestones and more
 
-As the history grew, we used it to record more – like snapshots of the service at important milestones, such as [at the launch of a public beta](https://bat-design-history.netlify.app/find-teacher-training/live-launch) or [our first publishing tool](https://bat-design-history.netlify.app/publish-teacher-training-courses/check-ucas-data).
+As the history grew, we used it to record more – like snapshots of the service at important milestones, such as [at the launch of a public beta](https://bat-design-history.netlify.app/find-teacher-training/live-launch/) or [our first publishing tool](https://bat-design-history.netlify.app/publish-teacher-training-courses/check-ucas-data/).
 
 When prototyping a complex feature its logic can become hidden in code or only visible for particular user journeys. Where these rules and scenarios emerged, the design history became the natural place to describe them, and this made it easier for developers to build those features.
 
