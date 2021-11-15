@@ -1,4 +1,6 @@
 .app-pagination {
+  margin-top: govuk-spacing(9);
+
   @include govuk-media-query($from: desktop) {
     // Alignment adjustments
     margin-left: - govuk-spacing(1);
@@ -35,7 +37,7 @@
 }
 
 .app-pagination__item {
-  @include govuk-font(19);
+  @include govuk-font(24);
   display: inline-block;
 }
 
@@ -85,11 +87,11 @@
 
   &:link,
   &:visited {
-    color: govuk-colour("blue");
+    color: $govuk-link-colour;
   }
 
   &:hover {
-    color: govuk-colour("light-blue");
+    color: $govuk-link-hover-colour;
    }
 
   &:focus {

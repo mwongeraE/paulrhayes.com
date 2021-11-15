@@ -5,7 +5,7 @@ description: "I’m an interaction designer working in government"
 pagination:
   data: collections.posts
   reverse: true
-  size: 50
+  size: 15
 eleventyComputed:
   eleventyNavigation:
     key: home
