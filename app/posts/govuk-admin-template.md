@@ -20,13 +20,11 @@ When I began working on another admin tool, [transition](/2014-07/transition-web
 
 It didn’t recreate [Bootstrap’s own reference](http://getbootstrap.com/2.3.2/components.html), instead it gave rules on how to use Bootstrap. This led to consistency within the application. For example, all tables would be `table table-bordered` with a custom `table-header` class applied to the column headings.
 
-TODO admin-template-style-guide.png
-Guidance on using Bootstrap tables in admin tools
+[![Screenshot of example guidance in GOV.UK admin template](admin-template-style-guide.png "Guidance on using Bootstrap tables in admin tools")](admin-template-style-guide.png)
 
 It also provided ways to document enhancements to Bootstrap, such as form helper classes for restricting input fields to standard widths.
 
-TODO admin-template-style-guide-inputs.png
-Guidance on setting input widths
+[![Screenshot of GOV.UK admin template](admin-template-style-guide-inputs.png "Guidance on setting input widths")](admin-template-style-guide-inputs.png)
 
 ## Sharing across tools
 

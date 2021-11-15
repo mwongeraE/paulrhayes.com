@@ -26,8 +26,7 @@ An old URL can:
 * be redirected to a GOV.UK page
 * be archived
 
-TODO transition-mappings.png
-Interface for managing mappings of old Cabinet Office URLs
+[![Screenshot of page showing how to manage mappings for URLs](transition-mappings.png "Interface for managing mappings of old Cabinet Office URLs")](transition-mappings.png)
 
 ### Redirects (301)
 
@@ -80,8 +79,7 @@ Research highlighted that:
 #### Editing multiple mappings
 On a list of mappings we added a way of selecting a range (one by one, or by shift-clicking a range) using a familiar pattern found in web email clients. That set of mappings could then be redirected, archived or tagged. It tested well.
 
-TODO transition-mappings-bulk-editing.png
-Interface for editing many redirects at once
+[![Interface for editing many redirects at once](transition-mappings-bulk-editing.png "Interface for editing many redirects at once")](transition-mappings-bulk-editing.png)
 
 #### Grouping mappings
 To group paths we added filtering and tagging. Organisations were free to create groups of mappings with whatever tags they liked. Tag autocomplete encouraged users to select tags their organisation had already used while tags themselves were hyphenated and lowercased to eliminate a lot of inadvertent variation. This follows my design principle of "Making it hard to do things badly".
@@ -106,5 +104,4 @@ Based on research findings, we made it easy to:
 * edit any mapping from analytics
 * know whether changes had already been made to fix a mapping
 
-TODO transition-analytics.png
-Interface showing analytics for a site after transition
+[![Interface showing analytics for a site after transition](transition-analytics.png "Interface showing analytics for a site after transition")](transition-analytics.png)

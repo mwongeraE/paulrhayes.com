@@ -90,8 +90,7 @@ Using a set of examples the frontend for a format can be built. This [pull reque
 
 ### A rendered example
 
-TODO govuk-speech-example.png
-Speech example rendered by government-frontend at a desktop viewport width
+[![Screenshot of a GOV.UK page](govuk-speech-example.png "Speech example rendered by government-frontend at a desktop viewport width")](govuk-speech-example.png)
 
 ### Finishing migration
 

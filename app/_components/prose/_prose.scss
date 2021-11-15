@@ -64,22 +64,32 @@
       display: block;
 
       &:hover {
-        outline-color: $govuk-link-hover-colour;
+        outline: 4px solid $govuk-link-hover-colour;
       }
 
       &:active {
-        outline-color: $govuk-link-active-colour;
+        outline: 4px solid $govuk-link-active-colour;
+      }
+
+      &:focus img {
+        outline: 10px solid $govuk-focus-colour;
       }
     }
 
     img {
       outline: 0;
+      margin-bottom: 0;
     }
+  }
+
+  figure + h2,
+  figure + h3,
+  figure + h4 {
+    @include govuk-responsive-padding(4, "top");
   }
 
   figcaption {
     background: govuk-colour("light-grey");
-    @include govuk-responsive-margin(4, "top");
     @include govuk-responsive-padding(2);
     @include govuk-font($size: 19);
 

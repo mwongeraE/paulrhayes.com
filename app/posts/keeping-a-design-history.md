@@ -21,10 +21,9 @@ On the Becoming a teacher team, we've been using a design history to document th
 
 Our design history is a public record of our designs and it tells the story of what we’ve designed and why:
 
-https://bat-design-history.netlify.app/
+[https://bat-design-history.netlify.app/](https://bat-design-history.netlify.app/)
 
-TODO bat-design-history.png
-The Becoming a teacher design history
+[![Screenshot of the Becoming a teacher design history](bat-design-history.png "The Becoming a teacher design history")](bat-design-history.png)
 
 ## The value of documenting design
 
