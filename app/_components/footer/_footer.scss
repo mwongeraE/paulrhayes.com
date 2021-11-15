@@ -1,0 +1,5 @@
+@include govuk-exports("app-footer") {
+  .app-footer {
+    border-top: 10px solid govuk-colour('black');
+  }
+}

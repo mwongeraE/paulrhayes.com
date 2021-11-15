@@ -1,0 +1,46 @@
+// Forked from header fork on GOV.UK Design System
+// See: https://github.com/alphagov/govuk-design-system/blob/master/src/stylesheets/components/_header.scss
+
+@include govuk-exports("app-header") {
+  .app-header {
+    border-top: 10px solid $paul-hayes-colour;
+    border-bottom-width: 1px;
+  }
+
+  .app-header--large {
+    border-top-width: 100px;
+    background: $paul-hayes-colour;
+    border-bottom: none;
+  }
+
+  .app-header__logo {
+    width: auto;
+  }
+
+  .govuk-header__logotype-text {
+    @include govuk-font($size: 36, $weight: 'bold');
+    color: govuk-colour("white");
+
+    .app-header--large & {
+      @include govuk-font($size: 48, $weight: 'bold');
+      // color: $govuk-text-colour;
+    }
+
+    :focus & {
+      color: $govuk-text-colour;
+    }
+  }
+
+  .govuk-header__container {
+    @include govuk-responsive-padding(9, "top");
+    @include govuk-responsive-padding(1, "bottom");
+    @include govuk-responsive-margin(3, "bottom");
+    border-bottom: none;
+
+    .app-header--large & {
+      @include govuk-responsive-padding(9, "top");
+      @include govuk-responsive-padding(7, "bottom");
+      margin-bottom: 0;
+    }
+  }
+}

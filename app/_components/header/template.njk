@@ -1,0 +1,17 @@
+{%- from "../site-search/macro.njk" import appSiteSearch -%}
+<header class="govuk-header app-header {% if params.isHomePage %}app-header--large{% endif %}" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container app-header__container">
+    <div class="govuk-header__logo app-header__logo">
+      <a href="{{ params.homepageUrl | default('/') }}" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <span class="govuk-header__logotype-text">
+            {{ params.websiteName }}
+          </span>
+        </span>
+      </a>
+    </div>
+    {# {{ appSiteSearch({
+      label: "Search paulrhayes.com"
+    }) | indent(4) | trim }} #}
+  </div>
+</header>

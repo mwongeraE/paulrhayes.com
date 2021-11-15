@@ -1,0 +1,40 @@
+$paul-hayes-colour: #3e916e;
+
+// Import settings first so we can override them before importing all of GOV.UK Frontend
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Inter:wght@400;700&display=swap');
+@import "node_modules/govuk-frontend/govuk/settings/all";
+
+// Override the default GOV.UK Frontend font stack
+$govuk-font-family: "Inter", "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+$header-font-family: "Cabin", "Inter", "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+
+$govuk-focus-colour: #ffeb3b;
+$govuk-global-styles: true;
+$govuk-new-link-styles: true;
+
+$govuk-link-colour: $paul-hayes-colour;
+$govuk-link-hover-colour: #004040;
+$govuk-link-visited-colour: #245842;
+
+@import "govuk/all.scss";
+@import "../_components/all.scss";
+@import "vendor/prism.scss";
+
+/* ==========================================================================
+ Pull request table
+ ========================================================================== */
+
+.pr-repo {
+  color: #777;
+}
+
+.pr-link {
+  @include govuk-font($size: 24);
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pr-link:hover {
+  text-decoration: underline;
+}

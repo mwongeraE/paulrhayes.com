@@ -1,10 +1,5 @@
 .DS_Store
 Thumbs.db
-db.json
-debug.log
-node_modules/
-public/
+node_modules
+public
 deploy/exclude.txt
-
-# Hexo edited config file
-*.yml-e

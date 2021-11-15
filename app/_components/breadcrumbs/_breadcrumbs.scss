@@ -1,0 +1,11 @@
+$app-breadcrumbs-inverted-text-colour: govuk-colour("white");
+$app-breadcrumbs-inverted-border-colour: govuk-colour("white");
+
+.app-breadcrumbs {
+  padding: govuk-spacing(2) 0;
+  background: govuk-colour('light-grey');
+
+  .govuk-breadcrumbs__list-item {
+    @include govuk-font(19);
+  }
+}

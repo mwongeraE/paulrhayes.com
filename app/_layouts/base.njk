@@ -1,0 +1,103 @@
+{% extends "govuk/template.njk" %}
+{% from "footer/macro.njk" import appFooter %}
+
+{% set htmlClasses = 'no-js' %}
+{% set isHomePage = eleventyNavigation.key == "home" %}
+
+{% from "header/macro.njk" import appHeader %}
+{% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
+
+{% block headIcons %}
+  <link rel="icon" type="image/png" href="/favicon.png" />
+{% endblock %}
+
+{% block head %}
+<link href="/stylesheets/application.css" media="all" rel="stylesheet" />
+<meta property="og:title" content="{{ title }}">
+{% if description %}<meta property="og:description" name="description" content="{{ description | markdown("inline") | striptags(true) }}">{% endif %}
+<meta property="og:image" content="/opengraph-image.png">
+{% endblock %}
+
+{% block pageTitle %}
+  {% if isHomePage %}
+    {{ app.websiteName }} - {{ description }}
+  {% else %}
+    {% if title %}{{ title }} - {% endif %}{{ app.websiteName }}
+  {% endif %}
+{% endblock %}
+
+{% block header %}
+  {{ appHeader({
+    homepageUrl: app.url or "/",
+    websiteName: app.websiteName,
+    isHomePage: isHomePage
+  }) }}
+
+  {{ appBreadcrumbs({
+    classes: "govuk-!-display-none-print",
+    title: title,
+    items: collections.all,
+    key: eleventyNavigation.key
+  }) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
+{% endblock %}
+
+{% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
+
+{% block footer %}
+    {% set metaHtml %}
+      <p class="govuk-footer__meta-custom">
+        © 2009&thinsp;–&thinsp;2021 Paul Hayes
+      </p>
+      <p class="govuk-!-font-size-16 govuk-!-margin-bottom-1">
+        Purple Hayes Ltd.
+      </p>
+      <p class="govuk-!-font-size-16">
+        Built using <a href="https://www.11ty.dev/" class="govuk-footer__link">11ty</a> and the <a href="https://design-system.service.gov.uk/" class="govuk-footer__link">GOV.UK Design System</a> – <a href="https://github.com/fofr/paulrhayes.com" class="govuk-footer__link">View code</a> and <a href="https://github.com/fofr/paulrhayes.com/blob/master/LICENCE" class="govuk-footer__link">licence</a></span>
+      </p>
+    {% endset %}
+
+    {{ appFooter({
+      meta: {
+        html: metaHtml
+      },
+      navigation: [
+        {
+          title: 'Links',
+          items: [
+            {
+              href: "https://paulhayes.photography",
+              text: "Paul Hayes Photography"
+            },
+            {
+              href: "https://twitter.com/fofr",
+              text: "Twitter"
+            },
+            {
+              href: "https://github.com/fofr",
+              text: "Github"
+            },
+            {
+              href: "https://sam-and-paul.com",
+              text: "Travel blog"
+            },
+            {
+              href: "/notes/",
+              text: "Notes"
+            },
+            {
+              href: "/contact",
+              text: "Contact me"
+            }
+          ]
+        }
+      ]
+    }) }}
+  {% endblock %}
+
+{% block bodyEnd %}
+  {% block scripts %}
+    <script src="/javascripts/govuk-frontend.js"></script>
+    <script src="/javascripts/application.js"></script>
+    {% block pageScripts %}{% endblock %}
+  {% endblock %}
+{% endblock %}
