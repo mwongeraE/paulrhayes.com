@@ -1,0 +1,10 @@
+{
+  "tags": ["notes"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent": "Notes",
+      "key": "{{ title }}",
+      "excerpt": "{{ description }}"
+    }
+  }
+}
