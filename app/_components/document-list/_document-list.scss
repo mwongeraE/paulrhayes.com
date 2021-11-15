@@ -15,7 +15,7 @@
 
 .app-document-list__item-title {
   @include govuk-font($size: 36, $weight: 'bold');
-  margin: 0 0 govuk-spacing(1);
+  margin: 0 0 govuk-spacing(2);
 
   a:link {
     text-decoration: none;
@@ -39,7 +39,8 @@
 }
 
 .app-document-list__attribute {
-  @include govuk-font($size: 16);
+  @include govuk-font($size: 24);
+  color: $govuk-secondary-text-colour;
   display: inline-block;
   margin: 0;
   padding-right: govuk-spacing(4);

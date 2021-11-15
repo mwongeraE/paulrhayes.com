@@ -11,9 +11,10 @@ $header-font-family: "Cabin", "Inter", "HelveticaNeue", "Helvetica Neue", "Arial
 $govuk-focus-colour: #ffeb3b;
 $govuk-global-styles: true;
 $govuk-new-link-styles: true;
+
 $govuk-link-colour: $paul-hayes-colour;
 $govuk-link-hover-colour: #004040;
-$govuk-link-visited-colour: #555;
+$govuk-link-visited-colour: #245842;
 
 @import "govuk/all.scss";
 @import "../_components/all.scss";

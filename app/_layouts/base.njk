@@ -19,7 +19,11 @@
 {% endblock %}
 
 {% block pageTitle %}
-  {% if title %}{{ title }} - {% endif %}{{ app.websiteName }} {{ eleventyNavigation.key }}
+  {% if isHomePage %}
+    {{ app.websiteName }} - {{ description }}
+  {% else %}
+    {% if title %}{{ title }} - {% endif %}{{ app.websiteName }}
+  {% endif %}
 {% endblock %}
 
 {% block header %}

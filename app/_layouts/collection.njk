@@ -37,8 +37,8 @@
         {# Paginate posts if front matter includes the pagination key #}
         {% if pagination %}
           <section class="govuk-grid-column-two-thirds">
-            <h2 class="govuk-heading-l govuk-!-font-size-27 {% if not posts.title %}govuk-visually-hidden{% endif %}">
-              {{ posts.title or app.posts.title or "Posts" }}
+            <h2 class="govuk-visually-hidden">
+              Posts
             </h2>
             {{ appDocumentList({
               classes: "govuk-!-margin-bottom-6",
