@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Moving markup towards HTML5'
+title: Moving markup towards HTML5
 tags:
   - html5
   - javascript

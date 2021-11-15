@@ -1,6 +1,7 @@
-layout: note
+---
+layout: post
 date: 2013-09-27
-title: 'Pull requests'
+title: Pull requests
 ---
 
 A list of my pull requests exported from [Github](https://github.com/fofr).

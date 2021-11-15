@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'A module instantiation pattern for Last.fm'
+title: A module instantiation pattern for Last.fm
 tags:
   - framework
   - js

@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Going green'
+title: Going green
 tags:
   - green
   - environment

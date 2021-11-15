@@ -1,4 +1,5 @@
-layout: note
+---
+layout: post
 date: 2017-09-27
 title: The Cat’s Table by Michael Ondaatje
 ---

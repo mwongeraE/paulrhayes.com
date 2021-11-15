@@ -1,6 +1,7 @@
-layout: note
+---
+layout: post
 date: 2013-09-27
-title: 'Top contributions to Github repositories'
+title: Top contributions to Github repositories
 ---
 
 A list of repositories I’ve contributed to on [Github](https://github.com/fofr).

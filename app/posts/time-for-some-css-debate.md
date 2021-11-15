@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Time for some CSS debate'
+title: Time for some CSS debate
 tags:
   - css3
   - debate
@@ -29,7 +30,10 @@ Before highlighting that the road to behaviour in CSS has already begun with the
 
 [John Dowdell](http://blogs.adobe.com/jd/2009/03/pervin_the_standards.html) of Adobe has also weighed in with an _honest rant_ that I heartily recommend reading, even if I’m slightly jealous that I cannot articulate my prose as well.
 
-> The clock example shows that people will use technologies in unexpected ways. The creators of Usenet did not intend mass advertising. [...] Stuffing the genie back inside the bottle is harder than looking carefully at the bottle before opening it.>
-> [...]>
-> We may not be able to persuasively articulate why this will eventually be considered a bad architectural decision. It’s like when vendors of email clients started talking about how wonderful it would be to add hidden graphics and scripting to the emails strangers send to you. Vague warnings of an unsound future are at a disadvantage to self-interested "But I wanna do it!!" evangelists.>
+> The clock example shows that people will use technologies in unexpected ways. The creators of Usenet did not intend mass advertising. [...] Stuffing the genie back inside the bottle is harder than looking carefully at the bottle before opening it.
+>
+> [...]
+>
+> We may not be able to persuasively articulate why this will eventually be considered a bad architectural decision. It’s like when vendors of email clients started talking about how wonderful it would be to add hidden graphics and scripting to the emails strangers send to you. Vague warnings of an unsound future are at a disadvantage to self-interested "But I wanna do it!!" evangelists.
+>
 > It’s hard to persuasively document future risks. But encumbering HTML and CSS like this is not the way to bless your own multimedia engine.

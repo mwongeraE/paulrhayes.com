@@ -1,5 +1,6 @@
-layout: note
-title: 'The Buddha'
+---
+layout: post
+title: The Buddha
 thing: 'Philosophize This! #9'
 thing_url: http://philosophizethis.org/the-buddha/
 date: 2017-07-02

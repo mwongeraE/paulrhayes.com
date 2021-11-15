@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Improving accessibility with accessibility acceptance criteria'
+title: Improving accessibility with accessibility acceptance criteria
 tags:
   - gds
   - accessibility

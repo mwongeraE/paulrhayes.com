@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'A greener Christmas'
+title: A greener Christmas
 tags:
   - green
   - environment

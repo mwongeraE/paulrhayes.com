@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Migrating a GOV.UK format to a new frontend'
+title: Migrating a GOV.UK format to a new frontend
 tags:
   - gds
 categories:
@@ -89,9 +90,8 @@ Using a set of examples the frontend for a format can be built. This [pull reque
 
 ### A rendered example
 
-{% figure govuk-speech-example.png portrait %}
+TODO govuk-speech-example.png
 Speech example rendered by government-frontend at a desktop viewport width
-{% endfigure %}
 
 ### Finishing migration
 

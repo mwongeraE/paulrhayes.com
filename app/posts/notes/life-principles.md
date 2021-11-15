@@ -1,6 +1,7 @@
-layout: note
+---
+layout: post
 date: 2017-07-05
-title: "Life principles"
+title: Life principles
 ---
 
 An evolving list of principles to live by.

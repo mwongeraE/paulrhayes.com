@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Adding touch gestures and mouse controls to a 3D CSS cube'
+title: Adding touch gestures and mouse controls to a 3D CSS cube
 tags:
   - 3d
   - css3

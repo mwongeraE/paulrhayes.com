@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Thoughts on Responsive Enhancement'
+title: Thoughts on Responsive Enhancement
 tags:
   - css3
   - media-queries

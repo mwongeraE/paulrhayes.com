@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Transitioning 800 websites to GOV.UK'
+title: Transitioning 800 websites to GOV.UK
 tags:
   - gds
 categories:
@@ -25,9 +26,8 @@ An old URL can:
 * be redirected to a GOV.UK page
 * be archived
 
-{% figure transition-mappings.png landscape %}
+TODO transition-mappings.png
 Interface for managing mappings of old Cabinet Office URLs
-{% endfigure %}
 
 ### Redirects (301)
 
@@ -80,9 +80,8 @@ Research highlighted that:
 #### Editing multiple mappings
 On a list of mappings we added a way of selecting a range (one by one, or by shift-clicking a range) using a familiar pattern found in web email clients. That set of mappings could then be redirected, archived or tagged. It tested well.
 
-{% figure transition-mappings-bulk-editing.png landscape %}
+TODO transition-mappings-bulk-editing.png
 Interface for editing many redirects at once
-{% endfigure %}
 
 #### Grouping mappings
 To group paths we added filtering and tagging. Organisations were free to create groups of mappings with whatever tags they liked. Tag autocomplete encouraged users to select tags their organisation had already used while tags themselves were hyphenated and lowercased to eliminate a lot of inadvertent variation. This follows my design principle of "Making it hard to do things badly".
@@ -107,6 +106,5 @@ Based on research findings, we made it easy to:
 * edit any mapping from analytics
 * know whether changes had already been made to fix a mapping
 
-{% figure transition-analytics.png landscape %}
+TODO transition-analytics.png
 Interface showing analytics for a site after transition
-{% endfigure %}

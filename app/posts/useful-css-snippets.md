@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Useful CSS snippets'
+title: Useful CSS snippets
 tags:
   - css
   - css3

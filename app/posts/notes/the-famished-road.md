@@ -1,4 +1,5 @@
-layout: note
+---
+layout: post
 date: 2017-10-04
 title: The Famished Road by Ben Okri
 ---

@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Creating the first design'
+title: Creating the first design
 tags:
   - theme
   - typography

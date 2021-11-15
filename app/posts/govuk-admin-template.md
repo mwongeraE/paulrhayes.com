@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Consistency across GOV.UK admin tools'
+title: Consistency across GOV.UK admin tools
 tags:
   - gds
 categories:
@@ -19,15 +20,13 @@ When I began working on another admin tool, [transition](/2014-07/transition-web
 
 It didn’t recreate [Bootstrap’s own reference](http://getbootstrap.com/2.3.2/components.html), instead it gave rules on how to use Bootstrap. This led to consistency within the application. For example, all tables would be `table table-bordered` with a custom `table-header` class applied to the column headings.
 
-{% figure admin-template-style-guide.png landscape %}
+TODO admin-template-style-guide.png
 Guidance on using Bootstrap tables in admin tools
-{% endfigure %}
 
 It also provided ways to document enhancements to Bootstrap, such as form helper classes for restricting input fields to standard widths.
 
-{% figure admin-template-style-guide-inputs.png landscape %}
+TODO admin-template-style-guide-inputs.png
 Guidance on setting input widths
-{% endfigure %}
 
 ## Sharing across tools
 

@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Favourite bug in 2015: When ‘exports’ isn’t falsy'
+title: "Favourite bug in 2015: When ‘exports’ isn’t falsy"
 tags:
   - bug
   - js

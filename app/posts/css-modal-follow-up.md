@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Improving the CSS only modal'
+title: Improving the CSS only modal
 tags:
   - animation
   - css3

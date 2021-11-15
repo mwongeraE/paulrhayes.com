@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Use CSS transitions to link Media Queries and JavaScript'
+title: Use CSS transitions to link Media Queries and JavaScript
 tags:
   - css3
   - media-queries

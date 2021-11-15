@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Keeping a design history'
+title: Keeping a design history
 tags:
   - dfe
   - government
@@ -22,9 +23,8 @@ Our design history is a public record of our designs and it tells the story of w
 
 https://bat-design-history.netlify.app/
 
-{% figure bat-design-history.png landscape %}
+TODO bat-design-history.png
 The Becoming a teacher design history
-{% endfigure %}
 
 ## The value of documenting design
 

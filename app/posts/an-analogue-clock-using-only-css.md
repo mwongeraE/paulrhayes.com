@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'An analogue clock using only CSS'
+title: An analogue clock using only CSS
 tags:
   - css3
   - transformations

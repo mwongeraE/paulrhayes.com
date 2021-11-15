@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'The Last.fm Webteam'
+title: The Last.fm Webteam
 tags:
   - agile
   - lastfm

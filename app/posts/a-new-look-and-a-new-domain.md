@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'A new look, and a new domain'
+title: A new look, and a new domain
 date: 2010-08-12 07:58:53
 tags:
 ---

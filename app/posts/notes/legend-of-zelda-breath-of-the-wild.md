@@ -1,4 +1,5 @@
-layout: note
+---
+layout: post
 date: 2017-07-05
 title: "Legend of Zelda: Breath of the Wild"
 ---

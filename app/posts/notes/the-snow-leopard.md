@@ -1,4 +1,5 @@
-layout: note
+---
+layout: post
 date: 2017-06-12
 title: The Snow Leopard by Peter Matthiessen
 ---

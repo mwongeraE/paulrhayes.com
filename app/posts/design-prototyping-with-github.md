@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Prototyping GOV.UK tools with Git and Github'
+title: Prototyping GOV.UK tools with Git and Github
 tags:
   - gds
 categories:

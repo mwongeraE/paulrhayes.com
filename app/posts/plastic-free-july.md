@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Plastic Free July'
+title: Plastic Free July
 tags:
   - green
   - environment

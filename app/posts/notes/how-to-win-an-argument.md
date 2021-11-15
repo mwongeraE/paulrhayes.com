@@ -1,6 +1,7 @@
-layout: note
+---
+layout: post
 date: 2017-07-18
-title: 'How to win an argument'
+title: How to win an argument
 thing: 'Philosophize This! #73'
 thing_url: http://philosophizethis.org/how-to-win-an-argument-pt-1/
 ---

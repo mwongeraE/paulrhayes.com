@@ -1,5 +1,6 @@
+---
 layout: post
-title: 'Track outbound links using Google Analytics'
+title: Track outbound links using Google Analytics
 tags:
   - analytics
   - css3
@@ -22,8 +23,10 @@ Hence, on an outbound link click, by calling this JavaScript method you can trig
 
 The solution is to attach a click event listener to each of the outbound links on the page, and the question becomes how to do that. CSS3 comes with a couple of handy [new selectors](https://www.w3.org/TR/css3-selectors/) that we can use in combination with Prototype or jQuery to root out the correct links. The appropriate selectors:
 
-> E[foo^="bar"] an E element whose "foo" attribute value begins exactly with the string "bar">
-> E[foo*="bar"] an E element whose "foo" attribute value contains the substring "bar">
+> E[foo^="bar"] an E element whose "foo" attribute value begins exactly with the string "bar"
+>
+> E[foo*="bar"] an E element whose "foo" attribute value contains the substring "bar"
+>
 > E:not(s) an E element that does not match simple selector s
 
 The magic outbound link selector then becomes one of the following, depending on your needs:
