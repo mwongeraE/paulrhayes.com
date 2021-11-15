@@ -15,7 +15,7 @@ Here’s another quick CSS3/WebKit transitions project in the controversial real
 
 ## Result
 
-[Experiment: Auto-scrolling CSS3 Parallax Effect](/experiments/parallax/#experiment)
+[Experiment: Auto-scrolling CSS3 Parallax Effect](http://fofr.github.io/paulrhayes.com-experiments/parallax/#experiment)
 Experiment works in Safari 4 Beta and Google Chrome. No JavaScript necessary.
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Tran­si­tions are now widely sup­ported. Support includ­es Opera, Fire­fox and IE10.

@@ -55,7 +55,7 @@ mq.addEventListener('webkitTransitionEnd', function() {
 
 I’ve taken the excellent [matchMedia polyfill](https://github.com/paulirish/matchMedia.js) and _quickly_ hacked together a version that includes transition events and a callback.
 
-[Proof of concept demo](/experiments/media-query-transitions/)
+[Proof of concept demo](http://fofr.github.io/paulrhayes.com-experiments/media-query-transitions/)
 (and on [Github](https://github.com/fofr/matchMedia.js))
 
 ```css

@@ -16,13 +16,13 @@ To this end, here are two experiments which do just that, one which places a mas
 
 ## Mask overlay experiment
 
-[View experiment](/experiments/webcam/mask.html) | [GitHub](https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam)
+[View experiment](http://fofr.github.io/paulrhayes.com-experiments/webcam/mask.html) | [GitHub](https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam)
 
 <div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/53803605" width="612" height="408" frameborder="0"></iframe></div>
 
 ## Scaling content experiment
 
-[View experiment](/experiments/webcam/) | [GitHub](https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam)
+[View experiment](http://fofr.github.io/paulrhayes.com-experiments/webcam/) | [GitHub](https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam)
 
 <div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/53803604" width="612" height="408" frameborder="0"></iframe></div>
 

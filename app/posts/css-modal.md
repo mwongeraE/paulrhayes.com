@@ -14,7 +14,7 @@ date: 2011-03-17 20:52:29
 
 Using CSS3 techniques a modal box can be created without JavaScript or images. With a bit of animation, transition and transform, it can be made that little bit more special.
 
-[CSS Modal Experiment](/experiments/modal/)
+[CSS Modal Experiment](http://fofr.github.io/paulrhayes.com-experiments/modal/)
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Modal experiment updated for Firefox 10 which has better transform, transition and animation performance. Also supports 3D transforms.
 

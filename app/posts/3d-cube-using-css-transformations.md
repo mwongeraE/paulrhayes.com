@@ -17,7 +17,7 @@ To demonstrate the power of this effect a second experiment with multiple cubes 
 
 ## Results
 
-[A 3D cube created with CSS](/experiments/cube/)
+[A 3D cube created with CSS](http://fofr.github.io/paulrhayes.com-experiments/cube/)
 Supported browsers: Safari 3.2+, Google Chrome, Firefox 3.5+
 
 <time datetime="2009-06-7">7 Jun 2009</time>: Altered CSS slightly to use skew(x,y) rather than skewY, the latter of which is not supported in Safari 3 / Chrome.
@@ -26,7 +26,7 @@ Supported browsers: Safari 3.2+, Google Chrome, Firefox 3.5+
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9. Transitions are coming in IE10.
 
-[Experiment with multiple cubes and CSS transitions, still no JavaScript](/experiments/cube/multiCubes.html)
+[Experiment with multiple cubes and CSS transitions, still no JavaScript](http://fofr.github.io/paulrhayes.com-experiments/cube/multiCubes.html)
 Supported browsers: Safari 4+, Google Chrome
 
 [![Multiple cubes created using CSS](http://host.trivialbeing.org/up/small/multiple-cubes-css.png)](http://host.trivialbeing.org/up/multiple-cubes-css.png)

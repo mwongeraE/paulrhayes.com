@@ -16,13 +16,13 @@ date: 2009-07-17 17:16:54
 
 Last week WebKit included the much anticipated (at least on my part) 3D transforms in its latest nightly build, announced practically alongside the awesome [Snow Stack demo](http://www.satine.org/research/webkit/snowleopard/snowstack.html) that provides a 3D interface for browsing Flickr images (use left, right and space-bar). Today the [Surfin Safari blog](https://webkit.org/blog/386/3d-transforms/) has updated with some more exciting demos, including _Morphin Power Cubes_ and _Poster Circle_. It is now possible to create all sorts of crazy three-dimensional and animated user interfaces; the power comes largely in `-webkit-perspective` and a number of updated transforms — adapted to incorporate the Z axis.
 
-Since working on the [3D cube using 2D transforms](/2009-04/3d-cube-using-css-transformations/) back in April I’ve experimented with perspective to create something more powerful, playing around with 3D transforms on the iPhone a few times (eg this [early rotating demo](/experiments/perspective/)). Now I’ve got something worth sharing.
+Since working on the [3D cube using 2D transforms](/2009-04/3d-cube-using-css-transformations/) back in April I’ve experimented with perspective to create something more powerful, playing around with 3D transforms on the iPhone a few times (eg this [early rotating demo](http://fofr.github.io/paulrhayes.com-experiments/perspective/)). Now I’ve got something worth sharing.
 
 A 3D cube can be created solely in CSS, with all six faces. Using JavaScript to detect key presses and update inline styles this cube can be intuitively navigated.
 
 ## Result
 
-[A 3D cube that rotates using the Up, Down, Left and Right arrow keys.](/experiments/cube-3d/)
+[A 3D cube that rotates using the Up, Down, Left and Right arrow keys.](http://fofr.github.io/paulrhayes.com-experiments/cube-3d/)
 Supported browsers: WebKit Nightly r46042+
 
 <time datetime="2010-09-28">28 Sept 2010</time>: [Cube updated](/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) to work with touch gestures and click and drag</a>
