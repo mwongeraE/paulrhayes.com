@@ -4,19 +4,28 @@
 }
 
 .app-document-list__item {
-  margin-bottom: govuk-spacing(3);
-  padding-bottom: govuk-spacing(2);
+  margin-bottom: govuk-spacing(6);
+  padding-bottom: govuk-spacing(5);
 
   &:last-child {
-    border-bottom: 0;
     margin-bottom: 0;
     padding-bottom: 0;
   }
 }
 
 .app-document-list__item-title {
-  @include govuk-font($size: 19, $weight: 'bold');
+  @include govuk-font($size: 36, $weight: 'bold');
   margin: 0 0 govuk-spacing(1);
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: underline;
+    @include govuk-link-hover-decoration;
+  }
 }
 
 .app-document-list__item-metadata {

@@ -1,4 +1,5 @@
 {% extends "base.njk" %}
+{% set isHomePage = eleventyNavigation.key == "home" %}
 
 {% from "document-list/macro.njk" import appDocumentList %}
 {% from "masthead/macro.njk" import appMasthead %}
@@ -8,13 +9,14 @@
 
 {% block main %}
   {% call appMasthead({
-    classes: "app-masthead--large" if eleventyNavigation.key == "home",
+    isHomePage: isHomePage,
+    classes: "app-masthead--large" if isHomePage,
     title: {
-      html: (description if eleventyNavigation.key == "home" else title) | widont
+      html: (description if isHomePage else title) | widont
     } if title,
     description: {
       html: description | widont | markdown
-    } if description and eleventyNavigation.key != "home"
+    } if description and not isHomePage
   }) %}
     {{ appBreadcrumbs({
       classes: "app-breadcrumbs--inverted govuk-!-display-none-print",

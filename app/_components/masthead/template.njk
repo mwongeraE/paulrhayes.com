@@ -14,6 +14,9 @@
           {{ params.description.html | safe if params.description.html else params.description.text }}
         </div>
       {% endif %}
+      {% if params.isHomePage %}
+        <p class="govuk-!-margin-bottom-6"><a href="/contact/" class="govuk-!-font-size-24 govuk-!-font-weight-bold app-!-inherit-colour">Contact me</a></p>
+      {% endif %}
       </div>
     </div>
   </div>

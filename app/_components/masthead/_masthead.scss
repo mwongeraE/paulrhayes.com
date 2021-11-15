@@ -3,6 +3,17 @@
   margin-top: govuk-spacing(6) - 1px;
   color: govuk-colour('white');
   background: $paul-hayes-colour;
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: govuk-colour('white');
+  }
+
+  a:focus {
+    color: $govuk-text-colour;
+  }
 }
 
 .app-masthead--large {
