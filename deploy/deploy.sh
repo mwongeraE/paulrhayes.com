@@ -15,7 +15,7 @@ echo "Copying htaccess file into public directory"
 cp .htaccess public/
 
 echo "Syncing to server"
-# rsync -rvSz --delete-after --exclude-from='deploy/exclude.txt' public/ paulrhayes:paulrhayes.com/
+rsync -rvSz --delete-after --exclude-from='deploy/exclude.txt' public/ paulrhayes:paulrhayes.com/
 
 echo "Reverting build number and email address"
 sed -i -e "s/email\:.*/email\: 'example@example.com',/" app/_data/app.js
