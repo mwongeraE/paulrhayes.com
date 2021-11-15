@@ -16,3 +16,22 @@ $govuk-new-link-styles: true;
 .app-footer {
   border-top: 10px solid #000;
 }
+
+/* ==========================================================================
+ Pull request table
+ ========================================================================== */
+
+.pr-repo {
+  color: #777;
+}
+
+.pr-link {
+  @include govuk-font($size: 24);
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pr-link:hover {
+  text-decoration: underline;
+}
