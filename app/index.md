@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: "Paul Hayes"
-description: "I’m a designer and developer working in government."
+description: "I’m an interaction designer working in government"
 pagination:
   data: collections.all
   reverse: true

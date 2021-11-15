@@ -10,11 +10,11 @@
   {% call appMasthead({
     classes: "app-masthead--large" if eleventyNavigation.key == "home",
     title: {
-      html: title | widont
+      html: (description if eleventyNavigation.key == "home" else title) | widont
     } if title,
     description: {
       html: description | widont | markdown
-    } if description,
+    } if description and eleventyNavigation.key != "home",
     startButton: startButton if startButton,
     image: image if image
   }) %}
