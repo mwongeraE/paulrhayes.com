@@ -1,4 +1,5 @@
 {% extends "govuk/template.njk" %}
+{% from "footer/macro.njk" import appFooter %}
 
 {% set htmlClasses = 'no-js' %}
 
@@ -38,17 +39,47 @@
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
 
 {% block footer %}
-  <div class="govuk-!-display-none-print app-footer">
-    {{ govukFooter({
+    {% set metaHtml %}
+      <p class="govuk-footer__meta-custom">
+        © 2009&thinsp;–&thinsp;2021 Paul Hayes
+      </p>
+      <p class="govuk-!-font-size-16 govuk-!-margin-bottom-1">
+        Purple Hayes Ltd.
+      </p>
+      <p class="govuk-!-font-size-16">
+        Built using <a href="https://www.11ty.dev/" class="govuk-footer__link">11ty</a> and the <a href="https://design-system.service.gov.uk/" class="govuk-footer__link">GOV.UK Design System</a> – <a href="https://github.com/fofr/paulrhayes.com" class="govuk-footer__link">View code</a> and <a href="https://github.com/fofr/paulrhayes.com/blob/master/LICENCE" class="govuk-footer__link">licence</a></span>
+      </p>
+    {% endset %}
+
+    {{ appFooter({
       meta: {
-        items: [{
-          text: "Sitemap",
-          href: "/sitemap"
-        }]
-      }
+        html: metaHtml
+      },
+      navigation: [
+        {
+          title: 'Links',
+          items: [
+            {
+              href: "https://paulhayes.photography",
+              text: "Paul Hayes Photography"
+            },
+            {
+              href: "https://twitter.com/fofr",
+              text: "Twitter"
+            },
+            {
+              href: "https://github.com/fofr",
+              text: "Github"
+            },
+            {
+              href: "https://sam-and-paul.com",
+              text: "Travel blog"
+            }
+          ]
+        }
+      ]
     }) }}
-  </div>
-{% endblock %}
+  {% endblock %}
 
 {% block bodyEnd %}
   {% block scripts %}
