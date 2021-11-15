@@ -9,7 +9,7 @@ categories:
 date: 2020-09-29
 ---
 
-__A version of this post was published on the [DfE digital blog](https://dfedigital.blog.gov.uk/2020/09/01/design-history/).__
+A version of this post was published on the [DfE digital blog](https://dfedigital.blog.gov.uk/2020/09/01/design-history/).
 
 As services age, as they’re iterated, built and rebuilt, and team members come and go, institutional memory fades and questions about why a service is the way it is become hard to answer. Context gets lost, research disappears and the design becomes opaque.
 

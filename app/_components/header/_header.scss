@@ -18,7 +18,7 @@
   }
 
   .govuk-header__logotype-text {
-    @include govuk-font($size: 24, $weight: 'bold');
+    @include govuk-font($size: 36, $weight: 'bold');
     color: govuk-colour("white");
 
     .app-header--large & {
@@ -32,9 +32,9 @@
   }
 
   .govuk-header__container {
-    @include govuk-responsive-padding(8, "top");
-    @include govuk-responsive-padding(2, "bottom");
-    @include govuk-responsive-margin(2, "bottom");
+    @include govuk-responsive-padding(9, "top");
+    @include govuk-responsive-padding(1, "bottom");
+    @include govuk-responsive-margin(3, "bottom");
     border-bottom: none;
 
     .app-header--large & {

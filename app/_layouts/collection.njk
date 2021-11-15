@@ -8,7 +8,7 @@
 {% from "related/macro.njk" import appRelated %}
 
 {% block main %}
-  {% call appMasthead({
+  {{ appMasthead({
     isHomePage: isHomePage,
     classes: "app-masthead--large" if isHomePage,
     title: {
@@ -17,14 +17,7 @@
     description: {
       html: description | widont | markdown
     } if description and not isHomePage
-  }) %}
-    {{ appBreadcrumbs({
-      classes: "app-breadcrumbs--inverted govuk-!-display-none-print",
-      title: title,
-      items: collections.all,
-      key: eleventyNavigation.key
-    }) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
-  {% endcall %}
+  }) }}
 
   <div class="govuk-width-container">
     {% block beforeContent %}{% endblock %}

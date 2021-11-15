@@ -1,8 +1,5 @@
 .app-masthead {
-  @include govuk-responsive-padding(2, "bottom");
-  margin-top: govuk-spacing(6) - 1px;
-  color: govuk-colour('white');
-  background: $paul-hayes-colour;
+  @include govuk-responsive-padding(9, "top");
 
   a:link,
   a:visited,
@@ -20,6 +17,7 @@
   @include govuk-responsive-padding(9, "top");
   @include govuk-responsive-padding(7, "bottom");
   margin-top: 0;
+  color: govuk-colour('white');
   background: govuk-colour('black');
 }
 

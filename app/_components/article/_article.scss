@@ -1,5 +1,8 @@
+.app-article {
+  @include govuk-responsive-margin(8, "top");
+}
+
 .app-article__description {
-  color: $govuk-secondary-text-colour;
   margin: 0 0 govuk-spacing(2);
 }
 
@@ -12,7 +15,7 @@
 }
 
 .app-article__footer {
-  @include govuk-font($size: 16, $line-height: 1.5);
+  @include govuk-font($size: 19);
   border-top: 1px solid $govuk-border-colour;
   padding-top: govuk-spacing(2);
 
