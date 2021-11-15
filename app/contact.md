@@ -3,7 +3,8 @@ title: 'Contact me'
 layout: 'page'
 ---
 
-Email me at: TODO
+Email me at:
+[{{ app.email }}](mailto:{{ app.email }})
 
 All experiments on paulrhayes.com are [released under an MIT license](https://github.com/fofr/paulrhayes.com-experiments/blob/master/LICENSE.txt)
 
@@ -12,5 +13,3 @@ All experiments on paulrhayes.com are [released under an MIT license](https://gi
 * [Photography](https://paulhayes.photography)
 * [Twitter](https://twitter.com/fofr)
 * [Github](https://github.com/fofr)
-* [Flickr](https://flickr.com/prhayes)
-* [500px](https://500px.com/FofR)

@@ -1,3 +1,4 @@
 module.exports = {
-  websiteName: 'Paul Hayes'
+  websiteName: 'Paul Hayes',
+  email: 'example@example.com'
 }
