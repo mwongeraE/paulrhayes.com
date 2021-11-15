@@ -4,6 +4,7 @@
 @include govuk-exports("app-header") {
   .app-header {
     border-top: 10px solid $paul-hayes-colour;
+    border-bottom-width: 1px;
   }
 
   .app-header--large {
