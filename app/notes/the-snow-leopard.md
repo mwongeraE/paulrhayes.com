@@ -19,4 +19,4 @@ Read partly while hiking in Annapurna.
 On Tukten:
 > “… he rarely speaks, except when spoken to, and never seems to speak too much; without obtruding, he becomes the centre of each situation, so naturally does he belong where the moment finds him.”
 
-https://www.goodreads.com/book/show/764165.The_Snow_Leopard
+[https://www.goodreads.com/book/show/764165.The_Snow_Leopard](https://www.goodreads.com/book/show/764165.The_Snow_Leopard)

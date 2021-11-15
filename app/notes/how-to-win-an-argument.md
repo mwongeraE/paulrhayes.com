@@ -2,8 +2,6 @@
 layout: post
 date: 2017-07-18
 title: How to win an argument
-thing: 'Philosophize This! #73'
-thing_url: http://philosophizethis.org/how-to-win-an-argument-pt-1/
 ---
 
 [Philosophize This!](http://philosophizethis.org/) is a philosophy podcast.
