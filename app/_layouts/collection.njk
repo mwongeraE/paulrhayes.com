@@ -14,9 +14,7 @@
     } if title,
     description: {
       html: description | widont | markdown
-    } if description and eleventyNavigation.key != "home",
-    startButton: startButton if startButton,
-    image: image if image
+    } if description and eleventyNavigation.key != "home"
   }) %}
     {{ appBreadcrumbs({
       classes: "app-breadcrumbs--inverted govuk-!-display-none-print",

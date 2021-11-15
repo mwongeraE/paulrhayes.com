@@ -14,21 +14,6 @@
           {{ params.description.html | safe if params.description.html else params.description.text }}
         </div>
       {% endif %}
-      {% if params.startButton %}
-        {{ govukButton({
-          classes: "app-button--inverted govuk-!-margin-top-6 govuk-!-margin-bottom-0",
-          text: params.startButton.text | default("Get started"),
-          href: params.startButton.href,
-          isStartButton: true
-        }) }}
-      {% endif %}
-      </div>
-      <div class="govuk-grid-column-one-third">
-      {% if params.image %}
-        <div class="app-masthead__image">
-          <img src="{{ params.image.src }}" alt="{{ params.image.alt }}" role="presentation">
-        </div>
-      {% endif %}
       </div>
     </div>
   </div>
