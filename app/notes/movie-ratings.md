@@ -8,7 +8,7 @@ List exported from my [IMDB movie rating history](http://www.imdb.com/user/ur173
 1462 movies rated. Last exported on 23 Jul 2017.
 
 | Date | Rating | Movie |
-|--|--|
+|--|--|--|
 | <time class="row-date" datetime="2017-07-16">16 Jul 2017</time> | 6/10 | <a href="http://www.imdb.com/title/tt0450188/" class="row-link">La Vie en Rose</a> (2007) |
 | <time class="row-date" datetime="2017-07-15">15 Jul 2017</time> | 7/10 | <a href="http://www.imdb.com/title/tt0112573/" class="row-link">Braveheart</a> (1995) |
 | <time class="row-date" datetime="2017-07-07"> 7 Jul 2017</time> | 6/10 | <a href="http://www.imdb.com/title/tt0448134/" class="row-link">Sunshine</a> (2007) |
