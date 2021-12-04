@@ -15,7 +15,7 @@ Having read the blurb around [Safari’s CSS transitions](https://webkit.org/blo
 
 ## Result
 
-[Experiment: CSS Analogue Clock](http://fofr.github.io/paulrhayes.com-experiments/clock/#clock)
+[Experiment: CSS Analogue Clock](https://fofr.github.io/paulrhayes.com-experiments/clock/#clock)
 Experiment works in Safari 4 Beta and Google Chrome. A working clock that optionally resorts to JavaScript to grab the current time (can be achieved by other means).
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9. Transitions are coming in IE10.

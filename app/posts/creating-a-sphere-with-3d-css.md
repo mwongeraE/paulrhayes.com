@@ -15,7 +15,7 @@ date: 2011-02-10 23:33:33
 
 With CSS3’s 3D transforms I’ve illustrated how to build a [cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) and a [tetrahedron](/2010-10/css-tetrahedron/). It is also possible to create a sphere-like object, albeit with many elements.
 
-[3D CSS Sphere](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[3D CSS Sphere](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 Works in the latest Safari and iOS (just about runs on an iPhone 4).
 
 <time datetime="2012-02-12">__12 Feb 2012__</time>: Experiment updated to support `-moz` now that Firefox 10 supports 3D transforms.
@@ -28,21 +28,21 @@ The more elements per round and the more rounds, the smoother the sphere. But th
 
 The biggest gains come with border radius. Using a huge radius that made each panel circular the sphere suddenly gained a lovely curvature, and the number of rounds and panels could be reduced. In the experiment I use 8 rounds and 24 panels (200 elements). This doesn’t start choking until I start aggressively animating.
 
-[![3D sphere using CSS transform](sphere-normal.png)](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[![3D sphere using CSS transform](sphere-normal.png)](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 
 Playing with this I’ve built a few different styles of sphere. In the experiment I’ve included the blocky ‘square’ version, along with the smoothed out border radius one (default). Marking panels white, and a few black can create a nice eye-ball effect.
 
-[![Sphere without border radius](sphere-square-150x150.png "Sphere without border radius")](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[![Sphere without border radius](sphere-square-150x150.png "Sphere without border radius")](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 
-[![Eye](sphere-eye-150x150.png "Eye")](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[![Eye](sphere-eye-150x150.png "Eye")](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 
 Also included in the experiment are versions showing a single round and another style named ‘contact’. This takes two lists and animates them like the space transportation device in the Jodie Foster movie of the same name.
 
-[![Rotating rounds](sphere-contact-150x150.png "Rotating rounds")](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[![Rotating rounds](sphere-contact-150x150.png "Rotating rounds")](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 
-[![Half a sphere](sphere-half-150x150.png "Half a sphere")](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[![Half a sphere](sphere-half-150x150.png "Half a sphere")](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 
-[![Kaleidoscope effect](sphere-kaleid-150x150.png "Kaleidoscope effect")](http://fofr.github.io/paulrhayes.com-experiments/sphere/)
+[![Kaleidoscope effect](sphere-kaleid-150x150.png "Kaleidoscope effect")](https://fofr.github.io/paulrhayes.com-experiments/sphere/)
 
 Animating the border radius on all 192 panels (if your machine can cope), gives a neat kaleidoscope effect, also included in the experiment.
 
