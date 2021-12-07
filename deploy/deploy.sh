@@ -1,8 +1,5 @@
 [ -z "$PAULRHAYES_EMAIL" ] && echo "Need to set PAULRHAYES_EMAIL" && return;
 
-# Run build script
-nvm use; npm run build
-
 # Adds date into config
 # http://stackoverflow.com/questions/8822097/
 # http://stackoverflow.com/questions/15870480/
@@ -10,6 +7,9 @@ nvm use; npm run build
 echo "Adding new build number and email address"
 sed -i -e "s/email\:.*/email\: '$PAULRHAYES_EMAIL',/" app/_data/app.js
 sed -i -e "s/site_build\:.*/site_build\: '`date +%s`'/" app/_data/app.js
+
+# Run build script
+nvm use; npm run build
 
 echo "Copying htaccess file into public directory"
 cp .htaccess public/
