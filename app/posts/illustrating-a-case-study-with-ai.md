@@ -72,7 +72,7 @@ DALL·E has a powerful in-painting feature. You can erase parts of an image and 
 
 ## Bringing Millie to life using AI
 
-I used Midjourney for the majority of the artwork.
+I used Midjourney for the artwork.
 
 Its generations were invariably artistic and consistent. DALL·E was more hit and miss – sometimes I’d get a storybook image, other times it would be more like a child’s drawing or a doodle in MS Paint ([an example of a miss](https://labs.openai.com/s/HEaj2T88sqCbayTAW4cSE0U1)).
 
@@ -105,15 +105,37 @@ The description would change, for example:
 - `the front of a school`
 - `standing at the school gates, a big old school and playground`
 
-### Cost
+## The cost of making images
 
-I could experiment over and over within a standard Midjourney subscription. Results were consistent but sometimes had strange artefacts, missing or unconnected limbs, or some strange upscaling issue, but I could try and try again to get it perfect.
+I could experiment without limits within a standard Midjourney subscription, which is $30 per month.
 
-With DALL·E every prompt costs about 12 pence ($15 for 115 prompts), and I couldn’t maintain consistency.
+Results were consistent but sometimes had strange artefacts, missing or unconnected limbs, or some strange upscaling issue, but I could try and try again to get it perfect.
 
-And there was a lot of iteration.
+With DALL·E every prompt costs about 12 pence ($15 for 115 prompts), and I couldn’t maintain consistency. I would need to use more prompts at a higher cost per-go.
+
+There was a lot of iteration, and hundreds of prompts.
 
 [![A screenshot from my Midjourney profile showing many different generations of Millie](iterations.png "Lots of Midjourney iterations")](iterations.png)
+
+### An example of prompt iteration
+
+When I was trying to express that Millie was too busy and tired to prove her name change, I tried:
+
+- `millie is very very busy`
+- `millie, a teacher, is tired, she sits with her head on her desk` (for this I got a disembodied head on a desk, not macabre, just literal)
+- `millie, a teacher, is tired`
+- `millie is tired`
+- `millie has many arms and is trying to do too much, hands waving everywhere`
+
+I got a bit exasperated and tried `millie goes to a funeral` or `millie gets a divorce`, but these looked more like grief than tiredness.
+
+In the end, what worked, for 'busy and tired', came from the prompt:
+
+`millie is angry`
+
+Then for when I needed more anger, I used:
+
+`millie gets very angry and red faced, she is frustrated as everything is going wrong`
 
 ## Icons and post-generation edits
 
@@ -127,6 +149,13 @@ DALL·E was invaluable for two specific parts of the process:
 Where Midjourney had given an almost perfect image, but a part of it was very obviously wrong, I could take a crop and use DALL·E in-painting.
 
 This was usually a problem with eyes, or oddly toothy grins.
+
+#### In-painting tips
+
+Typically you need to erase more of an image than you’d expect – it’s a fine balance between:
+
+- keeping enough of the image, to maintain the look and feel of the original, giving enough for DALL·E to match against
+- removing enough so that DALL·E has adequate space to fill the gaps with something realistic. For example, if you wanted to add an object, that object will have an effect on things around it, like reflections or shadows, and you need to give DALL·E space to account for that.
 
 [![A screenshot of DALL·E showing 4 images of Millie with different eyes, three look demonic, one looks sad](inpainting-fix-1.jpg "Fixing Millie’s eyes using DALL·E in-painting")](inpainting-fix-1.jpg)
 
